@@ -1,0 +1,118 @@
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "flex": 0,
+      "contents": [
+        {
+          "type": "text",
+          "text": "ผู้อำนวยการสำนัก",
+          "size": "lg",
+          "align": "center",
+          "weight": "bold",
+          "color": "#B20000"
+        }
+      ]
+    },
+    "hero": {
+      "type": "image",
+      "url": "https://www.rocketcva.info/assets/images/commitees/2_pmsuttichai.jpg",
+      "size": "full",
+      "aspectRatio": "1.91:1",
+      "aspectMode": "cover"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "พม.สุทธิชัย สุทธิชโย",
+          "flex": 0,
+          "size": "lg",
+          "align": "start",
+          "weight": "bold",
+          "color": "#FD5555"
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "margin": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "พรรษา ",
+              "flex": 1,
+              "margin": "md",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#727272"
+            },
+            {
+              "type": "text",
+              "text": "24",
+              "flex": 3,
+              "size": "sm"
+            },
+            {
+              "type": "spacer"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "margin": "lg",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "ตำแหน่ง",
+                  "flex": 1,
+                  "size": "sm",
+                  "weight": "bold",
+                  "color": "#727272"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "- ผู้ช่วยเจ้าอาวาส",
+                  "flex": 1,
+                  "size": "sm",
+                  "color": "#000000"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "- ผู้อำนวยการสำนัก",
+                  "flex": 1,
+                  "size": "sm"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
