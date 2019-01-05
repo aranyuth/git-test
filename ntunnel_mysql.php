@@ -1,7 +1,6 @@
-<?php	//version my202
+<?php	//version my101
 
 //set allowTestMenu to false to disable System/Server test page
-$allowTestMenu = true;
 
 $use_mysqli = function_exists("mysqli_connect");
 
